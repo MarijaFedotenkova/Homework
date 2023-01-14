@@ -1,0 +1,54 @@
+h1 {
+color: red;
+}
+p {
+font-size: 20px;
+line-height: 28px;
+}
+div {
+    background-color: aqua;
+border: 3px solid brown;
+border-radius: 30px 50px 30px 50px;
+padding: 10px 30px 10px 30px;
+margin: 30px ;
+}
+#logotip {
+width: 100px;
+height: 20px;
+object-fit: contain;
+}
+img {
+width: 400px;
+height: 200px;
+object-fit: cover;
+border-radius: 30px;
+}
+#about-us {
+letter-spacing: 5px;
+}
+#ofice{
+width: 500px;
+height: 300px;
+}
+#about-us-travel{
+    color: blueviolet;
+background-color: bisque;
+}
+header{
+background-color: blueviolet;
+font-size: 30px;
+line-height: 40px;
+padding: 20px;
+border-radius: 20px;
+}
+a {
+color: black;
+}
+footer {
+background-color: blueviolet;
+color: black;
+font-size: 40px;
+line-height: 50px;
+border-radius: 20px;
+padding: 20px;
+}
