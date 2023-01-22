@@ -1,12 +1,16 @@
 h1 {
 color: red;
 }
-p {
-font-size: 20px;
-line-height: 28px;
+.line-header {
+font-size: 25px;
+color: #fa8231;
 }
-div {
-    background-color: aqua;
+.info {
+font-size: 20px;
+line-height: 28px ;
+}
+.wrapper {
+background-color: aqua;
 border: 3px solid brown;
 border-radius: 30px 50px 30px 50px;
 padding: 10px 30px 10px 30px;
@@ -34,21 +38,44 @@ height: 300px;
     color: blueviolet;
 background-color: bisque;
 }
-header{
+.links{
+color: black;
 background-color: blueviolet;
-font-size: 30px;
+font-size: 20px;
 line-height: 40px;
 padding: 20px;
 border-radius: 20px;
 }
-a {
-color: black;
-}
-footer {
-background-color: blueviolet;
-color: black;
-font-size: 40px;
-line-height: 50px;
-border-radius: 20px;
-padding: 20px;
-}
+
+table, tr, td, th {
+    border: 2px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    margin: auto;
+    }
+    table {
+    width: 900px;
+    font-size: 25px;
+    line-height: 32px;
+    }
+    th {
+    font-weight: 900;
+    background-color:#4cd137 ;
+    color: rgb(190, 18, 168);
+    font-size: 24px;
+    }
+    tbody tr:nth-child(odd){
+    background-color: aquamarine;
+    }
+    tbody tr:nth-child(even){
+    background-color: bisque;
+    }
+     tr {
+    font-size: 18px;
+    }
+
+    ul {
+        padding: 30px;
+        list-style-type: square;
+        color:#45aaf2 ;
+        }
